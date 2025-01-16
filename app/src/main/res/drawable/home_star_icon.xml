@@ -1,0 +1,19 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer shine (Glow Effect) -->
+    <path
+        android:fillColor="#FFFFE0"
+    android:pathData="M24,2l5.668,15.284l15.82,0.034l-12.756,9.31l4.846,15.498l-13.578,-9.28l-13.578,9.28l4.846,-15.498l-12.756,-9.31l15.82,-0.034L24,2z"
+    android:strokeColor="#FFD700"
+    android:strokeWidth="2"
+    android:alpha="0.5" />
+
+    <!-- Main golden star -->
+    <path
+        android:fillColor="#FFD700"
+    android:pathData="M24,4l4.668,13.284l13.82,0.034l-11.756,8.31l3.846,13.498l-11.578,-8.28l-11.578,8.28l3.846,-13.498l-11.756,-8.31l13.82,-0.034L24,4z" />
+</vector>

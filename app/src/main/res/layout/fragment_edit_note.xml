@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp"
+        tools:context=".fragment.EditNoteFragment">
+
+        <TextView
+            android:id="@+id/editNoteHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/edit_note"
+            android:textStyle="bold"
+            android:textColor="@color/dark_blue"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editNoteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter the title"
+            android:textColor="@color/black"
+            android:textColorHint="#2F2F2F"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:layout_below="@id/editNoteHeading"
+            android:background="@drawable/navi_blue_border"
+            android:layout_marginTop="16dp"
+            android:maxLines="1"
+            android:fontFamily="@font/poppins"/>
+
+        <EditText
+            android:id="@+id/editNoteDesc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter the description"
+            android:textColorHint="#2F2F2F"
+            android:textColor="@color/black"
+            android:gravity="top"
+            android:padding="12dp"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins"
+            android:background="@drawable/navi_blue_border"
+            android:layout_below="@id/editNoteTitle"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/editNote"
+            android:elevation="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textSize="18sp"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="43dp"
+            android:textColor="@color/white"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/navi_blue_bg"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+</layout>
